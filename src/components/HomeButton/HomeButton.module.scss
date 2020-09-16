@@ -1,0 +1,14 @@
+.menuText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  font-size: 42px;
+  padding: 20px;
+  color: white;
+  transition: 0.2s ease;
+  &:hover {
+    color: rgb(61, 124, 249);
+    letter-spacing: 2px;
+  }
+}

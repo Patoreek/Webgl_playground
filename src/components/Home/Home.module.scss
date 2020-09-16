@@ -1,0 +1,30 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(15, 15, 15);
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+
+  &__title {
+    font-size: 60px;
+  }
+
+  .homeList {
+    list-style-type: none;
+    &__listItem {
+      text-align: center;
+      width: 50vw;
+      padding: 25px;
+      font-size: 24px;
+      transition: 0.3s ease;
+
+      &:hover {
+        letter-spacing: 2px;
+        color: rgb(67, 163, 231);
+      }
+    }
+  }
+}
