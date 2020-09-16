@@ -3,6 +3,13 @@ import { useFrame, useThree } from "react-three-fiber";
 import lerp from "lerp";
 import state from "./store";
 
+import {
+  SectionContext,
+  PagesContext,
+  ZoomContext,
+  TopContext,
+} from "./HenschelContext";
+
 const offsetContext = createContext(0);
 
 function Block({ children, offset, factor, ...props }) {

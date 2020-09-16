@@ -1,5 +1,6 @@
 .canvas {
   position: absolute;
+  height: 100vh !important; //? If this canvas gets put into a smaller div then change the parent container to 100vh and this 100%
   //background: orange;
 }
 
